@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Personal Website</title>
+        <link
+            href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+            rel="stylesheet"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/fork-awesome@1.1.7/css/fork-awesome.min.css"
+            integrity="sha256-gsmEoJAws/Kd3CjuOQzLie5Q3yshhvmo7YNtBG7aaEY="
+            crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body
+        class="h-screen bg-no-repeat bg-gradient-to-br from-green-400 via-blue-400 to-indigo-600"
+    >
+        <canvas id="circle"></canvas>
+        <canvas id="circle2"></canvas>
+        <main class="container h-full py-12 mx-auto" style="max-width: 1024px">
+            <div class="flex h-full shadow-2xl rounded-3xl">
+                <!-- Left panel -->
+                <div
+                    class="flex items-center w-1/4 px-8 blur-500 rounded-l-3xl"
+                >
+                    <div
+                        class="flex flex-col justify-between h-full py-12 mx-auto text-transparent bg-gradient-to-br bg-clip-text from-blue-600 to-purple-600"
+                    >
+                        <img
+                            src="https://avataaars.io/?avatarStyle=Transparent&topType=ShortHairShortWaved&accessoriesType=Prescription02&hairColor=BrownDark&facialHairType=BeardLight&facialHairColor=BrownDark&clotheType=BlazerShirt&eyeType=Default&eyebrowType=Default&mouthType=Smile&skinColor=Light"
+                            class="mx-auto rounded-full shadow-2xl"
+                            width="150px"
+                        />
+                        <div class="pt-4 text-2xl font-bold text-center">
+                            User Name
+                        </div>
+                        <div class="mt-1 text-sm text-center">Developer</div>
+
+                        <!-- Pages -->
+                        <ul class="pl-3 text-xl font-bold">
+                            <li class="pt-8">
+                                <a href="#" class="hover:text-indigo-400"
+                                    >Home</a
+                                >
+                            </li>
+                            <li class="pt-8">
+                                <a href="#" class="hover:text-indigo-400"
+                                    >About Me</a
+                                >
+                            </li>
+                            <li class="pt-8">
+                                <a href="#" class="hover:text-indigo-400"
+                                    >Contact</a
+                                >
+                            </li>
+                        </ul>
+
+                        <!-- Social Links -->
+                        <div class="flex justify-between pt-8">
+                            <a
+                                href="#"
+                                class="p-2 rounded-full hover:text-indigo-400"
+                            >
+                                <i
+                                    class="fa fa-2x fa-twitter"
+                                    aria-hidden="true"
+                                ></i>
+                            </a>
+                            <a
+                                href="#"
+                                class="p-2 rounded-full hover:text-indigo-400"
+                            >
+                                <i
+                                    class="fa fa-2x fa-instagram"
+                                    aria-hidden="true"
+                                ></i>
+                            </a>
+                            <a
+                                href="#"
+                                class="p-2 rounded-full hover:text-indigo-400"
+                            >
+                                <i
+                                    class="fa fa-2x fa-github"
+                                    aria-hidden="true"
+                                ></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Content -->
+                <div
+                    class="flex items-center w-3/4 px-16 py-12 blur-300 rounded-r-3xl"
+                >
+                    <div
+                        class="text-transparent bg-gradient-to-tr bg-clip-text from-blue-600 to-purple-600"
+                    >
+                        <h1 class="text-5xl font-bold tracking-wide">
+                            Welcome
+                        </h1>
+                        <p
+                            class="pt-6 text-lg leading-loose tracking-wide text-justify"
+                        >
+                            Lorem ipsum dolor sit amet consectetur, adipisicing
+                            elit. Fugit maiores maxime libero suscipit dolore,
+                            iusto ipsum officia accusamus officiis voluptates
+                            corporis tenetur recusandae! Illum impedit rem
+                            porro, rerum blanditiis aspernatur?
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>
